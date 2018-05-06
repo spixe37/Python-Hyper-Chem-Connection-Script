@@ -1,7 +1,7 @@
 import ctypes
 import os
 
-path = os.getcwd() + '\\hapi.dll'
+path = os.getcwd() + './hapi.dll'
 hapi = ctypes.WinDLL(path)
 
 hcConnect = hapi.hcConnect

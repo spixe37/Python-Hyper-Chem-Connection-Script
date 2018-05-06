@@ -1,0 +1,29 @@
+{
+  "name": "phcs_web",
+  "version": "1.0.1",
+  "description": "Fron web to chem",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spixe37/Python-Hyper-Chem-Connection-Script.git"
+  },
+  "keywords": [
+    "js",
+    "hypechem"
+  ],
+  "author": "spixe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spixe37/Python-Hyper-Chem-Connection-Script/issues"
+  },
+  "homepage": "https://github.com/spixe37/Python-Hyper-Chem-Connection-Script#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "express": "^4.16.3",
+    "request": "^2.85.0"
+  }
+}
